@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="APP_ON">"APP_ON"</string>
+    <string name="YES">YES</string>
+    <string name="DAY">DAY</string>
+    <string name="KIND">KIND</string>
+    <string name="TIME">TIME</string>
+
+
+</resources>
