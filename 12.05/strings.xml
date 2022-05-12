@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="APP_ON">"APP_ON"</string>
+    <string name="TIME_REMINDER">TIME_REMINDER</string>
+    <string name="YES">YES</string>
+    <string name="DAY">DAY</string>
+    <string name="DAY1">DAY1</string>
+    <string name="DAY2">DAY2</string>
+    <string name="DAY3">DAY3</string>
+    <string name="DAY4">DAY4</string>
+    <string name="DAY5">DAY5</string>
+    <string name="DAY6">DAY6</string>
+    <string name="DAY7">DAY7</string>
+    <string name="KIND">KIND</string>
+    <string name="TIME">TIME</string>
+    <string name="VIDEO">VIDEO</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday</string>
+    <string name="Wednesday">Wednesday</string>
+    <string name="Thursday">Thursday</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday</string>
+
+</resources>
