@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yehudit.powerwomen">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+   <!-- <uses-sdk android:minSdkVersion="11" />-->
+
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.FirstApp">
+
+        <activity android:name=".Repeating_activity"/>
+        <receiver android:name=".Notification_receiver"/>
+        <activity
+            android:parentActivityName=".TimeActivity"
+            android:name=".VideoActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"/>
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".CircleActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"/>
+
+        <activity
+            android:parentActivityName=".KindActivity"
+            android:name=".TimeActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".KindActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".TodayActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".DaysActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".GalleryaActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".DbActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".CameraActivity"
+            android:exported="false" />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".GalleryActivity"
+            android:exported="false"
+            />
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:name=".SettingsActivity"
+            android:exported="false"
+            />
+        <activity
+            android:parentActivityName=".OpenActivity"
+            android:name=".MainActivity"
+            android:exported="false"
+            />
+
+
+        <activity
+            android:name=".OpenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!--        for notification-->
+        <receiver android:name=".AlarmBrodcast" />
+        <receiver android:name=".BroadcastAlarm" />
+    </application>
+
+</manifest>

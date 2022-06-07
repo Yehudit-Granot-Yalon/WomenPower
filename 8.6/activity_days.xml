@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".DaysActivity">
+
+
+    <Button
+        android:id="@+id/btnday1"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:onClick="listenerButtons"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/presence_video_busy"
+
+        />
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="do 1?"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:textStyle="bold|italic"
+
+        />
+    <Button
+        android:id="@+id/btnday2"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:onClick="listenerButtons"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/presence_video_busy" />
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="do 2?"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:textStyle="bold|italic"
+
+        />
+
+    <Button
+        android:id="@+id/btnday3"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:onClick="listenerButtons"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/presence_video_busy" />
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="do 3?"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:textStyle="bold|italic"
+
+        />
+    <Button
+        android:id="@+id/btnday4"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:onClick="listenerButtons"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/presence_video_busy" />
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="do 4?"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:textStyle="bold|italic"
+
+        />
+
+    <Button
+        android:id="@+id/btnday5"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:onClick="listenerButtons"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/presence_video_busy"/>
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="do 5?"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:textStyle="bold|italic"
+
+        />
+    <Button
+        android:id="@+id/btnday6"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:onClick="listenerButtons"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/presence_video_busy" />
+    <Switch
+        android:id="@+id/switch6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="do 6?"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:textStyle="bold|italic"
+
+        />
+
+    <Button
+        android:id="@+id/btnday7"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:onClick="listenerButtons"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/presence_video_busy" />
+    <Switch
+        android:id="@+id/switch7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="do 7?"
+        android:textOff="NO"
+        android:textOn="YES"
+        android:showText="true"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="#f00"
+        android:textStyle="bold|italic"
+
+        />
+
+
+
+
+</LinearLayout>
+

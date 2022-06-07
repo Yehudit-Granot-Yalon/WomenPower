@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".KindActivity">
+
+    <ImageView
+        android:id="@+id/kind1ID"
+        android:onClick="listenerKind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/legs" />
+
+    <ImageView
+        android:id="@+id/kind2ID"
+        android:onClick="listenerKind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/abdominal" />
+
+
+    <ImageView
+        android:id="@+id/kind3ID"
+        android:onClick="listenerKind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/body" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="640dp"
+        android:gravity="center"
+        android:text="@string/TIME"
+        android:textColor="@color/pink"
+        android:textSize="25dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="175dp" />
+
+
+
+</LinearLayout>
