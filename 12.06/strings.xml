@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Women Power</string>
+    <string name="APP_ON">"APP_ON"</string>
+    <string name="INDEX_PICTURE">"INDEX_PICTURE"</string>
+    <string name="TIME_REMINDER">TIME_REMINDER</string>
+    <string name="YES" translatable="false">YES</string>
+    <string name="NO" translatable="false">NO</string>
+    <string name="weeklyCycle">weeklyCycle</string>
+    <string name="BEFORE">before</string>
+    <string name="AFTER">after</string>
+    <string name="DAY_START">DAY_START</string>
+    <string name="DAY_END">DAY_END</string>
+    <string name="DAY">DAY</string>
+    <string name="DAY1">DAY1</string>
+    <string name="DAY2">DAY2</string>
+    <string name="DAY3">DAY3</string>
+    <string name="DAY4">DAY4</string>
+    <string name="DAY5">DAY5</string>
+    <string name="DAY6">DAY6</string>
+    <string name="DAY7">DAY7</string>
+    <string name="DAY1_DO">DAY1_DO</string>
+    <string name="DAY2_DO">DAY2_DO</string>
+    <string name="DAY3_DO">DAY3_DO</string>
+    <string name="DAY4_DO">DAY4_DO</string>
+    <string name="DAY5_DO">DAY5_DO</string>
+    <string name="DAY6_DO">DAY6_DO</string>
+    <string name="DAY7_DO">DAY7_DO</string>
+    <string name="KIND">KIND</string>
+    <string name="TIME">TIME</string>
+    <string name="VIDEO">VIDEO</string>
+    <string name="Sunday" translatable="false">Sunday</string>
+    <string name="Monday" translatable="false">Monday</string>
+    <string name="Tuesday" translatable="false">Tuesday</string>
+    <string name="Wednesday" translatable="false">Wednesday</string>
+    <string name="Thursday" translatable="false">Thursday</string>
+    <string name="Friday" translatable="false">Friday</string>
+    <string name="Saturday" translatable="false">Saturday</string>
+
+</resources>

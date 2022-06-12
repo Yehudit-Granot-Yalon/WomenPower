@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/pink">
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:src="@drawable/wpower" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Yehudit Granot \n 207346925 \n 18.07.2022"
+        android:textColor="@color/teal_200"
+        android:textSize="30dp" />
+
+</RelativeLayout>

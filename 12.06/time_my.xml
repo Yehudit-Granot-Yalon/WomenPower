@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    android:gravity="center"--><![CDATA[
+    android:background="@color/pink">
+
+
+
+
+
+
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="88dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/checkbox_on_background"
+        android:onClick="listenerKind"
+        android:text="lets start"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image20Min"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnReminder"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="timeDefine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tennminutes" />
+
+    <Button
+        android:id="@+id/btnReminder"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="37dp"
+        android:layout_weight="1"
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/ic_menu_today"
+        android:onClick="popTimePicker"
+        android:text="Add a reminder"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnTime"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="59dp"
+
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="89dp"
+        android:layout_weight="1"
+
+        android:backgroundTint="#CA6587"
+        android:drawableRight="@android:drawable/ic_lock_idle_alarm"
+
+
+        android:text="Time for exercise"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:onClick="chooseCall"
+        app:layout_constraintBottom_toTopOf="@+id/image10Min"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image10Min"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTime"
+        android:onClick="timeDefine"
+        app:srcCompat="@drawable/tenminutes" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="45dp"
+        android:layout_height="350dp"
+        app:srcCompat="@android:drawable/presence_video_busy"
+        tools:layout_editor_absoluteY="-42dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
