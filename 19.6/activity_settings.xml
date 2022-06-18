@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    tools:context=".SettingsActivity">
+    <ImageView
+        android:id="@+id/photo_me"
+        style="@style/BackGroundImageView"
+        android:layout_width="426dp"
+        android:layout_height="750dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/aab"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listenerS1"
+            android:backgroundTint="#CA6587"
+            android:drawableRight="@android:drawable/ic_menu_add"
+            android:text="REPLACE KIND VIDEO" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listenerS2"
+            android:backgroundTint="#CA6587"
+            android:drawableRight="@android:drawable/ic_menu_add"
+            android:text="REPLACE TIME VIDEO" />
+
+        <Button
+            android:id="@+id/stopNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listenerS3"
+            android:backgroundTint="#CA6587"
+            android:drawableRight="@android:drawable/ic_menu_add"
+            android:text="STOP NOTIFICATION" />
+        <Button
+            android:id="@+id/changeNotification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="listenerS4"
+            android:backgroundTint="#CA6587"
+            android:drawableRight="@android:drawable/ic_menu_add"
+            android:text="SET NOTIFICATION" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

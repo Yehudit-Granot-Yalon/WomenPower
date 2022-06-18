@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/pink">
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="420dp"
+        android:layout_height="405dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/wpower" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-42dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="name: Yehudit Granot \n I.D: 207346925 \n date of submission: 19.07.2022"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+</RelativeLayout>
